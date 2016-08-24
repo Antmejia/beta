@@ -53,7 +53,6 @@ canvas {
     .main-window p {
         font-size: 20px !important;
     }
-
 }
 
 /***********FONTS***********/
@@ -68,12 +67,16 @@ canvas {
     font-family: "Raleway", sans-serif;
 }
 
-h2.sectiontitle,
 #bigJoe p,
-.section-title,
-.projects h4,
-.modal-title h4 {
+.section-title {
     font-family: "Josefin Sans", sans-serif;
+}
+
+h2.sectiontitle, 
+.projects h4,
+.modal-title h4,
+.bkdown h4 {
+	font-family: "Lato", sans-serif;
 }
 
 p,
@@ -488,8 +491,8 @@ svg.social-icon {
 /**********GENERAL SECTIONS**********/
 
 h2.sectiontitle {
-    font-weight: 600;
-    font-size: 40px;
+	font-weight: 300;
+    font-size: 47px;
     margin-bottom: 25px;
     padding-top: 10px;
 }
@@ -632,6 +635,7 @@ h2.sectiontitle {
 
 .bkdown h4 {
     font-size: 24px;
+    font-weight: 400;
     margin: 15px 5%;
 }
 
@@ -689,7 +693,6 @@ h2.sectiontitle {
     }
 
     .bkdown h4 {
-        font-weight: bold;
     }
 
 }
@@ -885,7 +888,7 @@ h2.sectiontitle {
 }
 
 .position h5 {
-    font-weight: bold;
+    font-weight: 400;
     font-size: 20px;
 }
 
@@ -909,7 +912,7 @@ h2.sectiontitle {
 }
 
 .education h5 {
-    font-weight: bold;
+    font-weight: 400;
     font-size: 20px;
 }
 
