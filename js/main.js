@@ -234,13 +234,13 @@ $(function() {
             $(this).find(".icopy").velocity({
                 opacity: 1,
             }, {
-                duration: 500
+                duration: 300
             });
         } else {
             $(this).children(".social-icon").velocity({
                 color: "#418ED5"
             }, {
-                duration: 500
+                duration: 300
             });
         }
     }, function() {
