@@ -695,6 +695,13 @@ h2.sectiontitle {
     }
 
     .bkdown h4 {
+        display: block;
+        width: 70%;
+        overflow: hidden;
+        right: 0;
+        margin-top: 10px;
+        margin-left: 25%;
+        padding-right: 5%;
     }
 
 }
