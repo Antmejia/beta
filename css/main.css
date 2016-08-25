@@ -557,7 +557,7 @@ h2.sectiontitle {
 	margin-top: -10px;
 	margin-left: -55px;
 	opacity: 0;
-	background: -webkit-linear-gradient(-45deg,  #81F3FD 6%, #5BCAFF 8%, #1D77EF);
+	background: -webkit-linear-gradient(-45deg,  #81F3FD, #5BCAFF 5%, #196BD6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
