@@ -557,7 +557,8 @@ h2.sectiontitle {
 	margin-top: -10px;
 	margin-left: -55px;
 	opacity: 0;
-	background: -webkit-linear-gradient(-45deg,  #81F3FD 6%, #5BCAFF 8%, #1D77EF);
+	background: linear-gradient(-45deg,  #81F3FD, #5BCAFF 5%, #196BD6);
+    background: -webkit-linear-gradient(-45deg,  #81F3FD, #5BCAFF 5%, #196BD6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -636,7 +637,8 @@ h2.sectiontitle {
 .bkdown h4 {
     font-size: 24px;
     font-weight: 400;
-    margin: 15px 5%;
+    margin: 18px 8%;
+    width: 80%;
 }
 
 .bkdown p {
@@ -657,7 +659,7 @@ h2.sectiontitle {
 
     #skills p {
         display: block;
-        width: 70%;
+        width: 68%;
         overflow: hidden;
         right: 0;
         margin-top: 10px;
@@ -666,17 +668,20 @@ h2.sectiontitle {
     }
 
     .bkicon {
+        margin-top: 10px; 
         width: 15%;
         max-width: 100px;
         float: left;
         margin-left: 10%;
         display: inline;
-        position: relative;
+        position: absolute;
+        left: 0;
     }
 
     .ping {
         width: 150px;
         height: auto;
+        display: inline; 
     }
 
     #skillsum {
@@ -693,8 +698,16 @@ h2.sectiontitle {
     }
 
     .bkdown h4 {
+        display: block;
+        width: 68%;
+        text-align: left; 
+        overflow: hidden;
+        right: 0;
+        margin-top: 10px;
+        margin-left: 25%;
+        padding-right: 2%;
+        padding-left: 8%;
     }
-
 }
 
 /**********PROJECTS**********/
